@@ -389,11 +389,11 @@ function Contact() {
       <div className="grid md:grid-cols-2 gap-16">
         <div>
           <h2 className="font-display text-4xl mb-6">
-            Let's build<br />
+            Let&apos;s build<br />
             <span className="italic text-muted">something together.</span>
           </h2>
           <p className="text-muted leading-relaxed mb-8">
-            Open to full-time roles, contract work, and interesting research collaborations.
+            Open to full-time roles.
           </p>
           <div className="space-y-3">
             {[
