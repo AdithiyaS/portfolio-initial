@@ -21,12 +21,12 @@ export const portfolio = {
 
   experience: [
     {
-      role: "Research Assistant",
+      role: "Software Engineer",
       company: "California State University, San Bernardino",
       period: "Sept 2025 — Present",
       location: "San Bernardino, CA",
       highlights: [
-        "Building Unreal Engine–ArcGIS Pro integration in C++ and Python to import and visualize large-scale archaeological spatial datasets in real time.",
+        "Building Unreal Engine–ArcGIS Pro integration in C++ and Python to import and visualize large-scale archaeological spatial datasets in real time for archaeological research project.",
         "Implementing 3D modeling pipelines and database systems for immersive, high-fidelity archaeological environments.",
         "Designing automated data processing workflows that reduce manual processing time and improve spatial dataset accuracy.",
       ],
@@ -45,7 +45,7 @@ export const portfolio = {
     {
       role: "Software Engineer",
       company: "Guardian Life",
-      period: "Oct 2019 — Sept 2022",
+      period: "Oct 2019 — July 2023",
       location: "Chennai, India",
       highlights: [
         "Modernized legacy WCF services into .NET Core RESTful APIs, cutting response times 20% across systems serving 100K+ users.",
