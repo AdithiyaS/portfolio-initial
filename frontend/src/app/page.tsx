@@ -179,7 +179,7 @@ function Hero() {
         {/* stats row */}
         <div className="mt-20 grid grid-cols-3 md:grid-cols-3 gap-8 max-w-lg opacity-0 animate-fade-up" style={{ animationDelay: "0.7s", animationFillMode: "forwards" }}>
           {[
-            { label: "Years Experience", value: 3, suffix: "+" },
+            { label: "Years Experience", value: 4, suffix: "+" },
             { label: "Users Served", value: 100, suffix: "K+" },
             { label: "Efficiency Gains", value: 40, suffix: "%" },
           ].map(s => (

@@ -8,12 +8,12 @@ export const portfolio = {
   linkedin: "https://linkedin.com/in/adithiya-srinivasan",
   github: "https://github.com/AdithiyaS",
 
-  about: `I'm a full-stack engineer with 3+ years of industry experience building backend APIs and microservices at enterprise scale. At Guardian Life, I modernized legacy WCF services into .NET Core REST APIs serving 100K+ users, and architected AWS-native data pipelines that cut manual processing by 40%. Now pursuing research at CSUSB, I'm pushing spatial data into Unreal Engine for archaeological visualization — because software should do more than move JSON around.`,
+  about: `I'm a full-stack engineer with 4+ years of experience building frontends and cloud-native backend services in Java, C#, and Python. At Guardian Life, I modernized legacy WCF services into .NET Core REST APIs serving 100K+ users, and architected AWS-native data pipelines that cut manual processing by 40%. Now developing research project at CSUSB, I'm pushing spatial data into Unreal Engine for archaeological visualization — because software should do more than move JSON around.`,
 
   skills: {
-    "Backend & APIs": ["C#", ".NET Core", "Python", "Node.js", "RESTful APIs", "Microservices", "SOA"],
+    "Backend & APIs": ["C#", ".NET Core", "Python", "Node.js", "RESTful APIs", "Microservices", "JAVA", "Spring Boot"],
     "Frontend": ["React", "Angular", "Next.js", "TypeScript", "JavaScript", "HTML/CSS"],
-    "Cloud & DevOps": ["AWS (S3, Lambda, SQS, API Gateway)", "Azure", "Docker", "Kubernetes", "GitHub Actions", "Jenkins", "CI/CD"],
+    "Cloud & DevOps": ["AWS (S3, SQS, API Gateway)", "Azure", "Docker", "GitHub Actions", "Jenkins", "CI/CD"],
     "Databases": ["SQL Server", "PostgreSQL", "MySQL", "Oracle", "Dapper ORM"],
     "Testing & Methodology": ["Unit Testing", "Integration Testing", "Agile/Scrum", "SAFe 5.1"],
     "Embedded & 3D": ["FreeRTOS", "Embedded C/C++", "Unreal Engine", "ArcGIS Pro", "CAN/USART"],
@@ -49,7 +49,7 @@ export const portfolio = {
       location: "Chennai, India",
       highlights: [
         "Modernized legacy WCF services into .NET Core RESTful APIs, cutting response times 20% across systems serving 100K+ users.",
-        "Engineered Data Handler microservice on AWS (S3, Lambda, API Gateway), reducing manual backend processing by 40%.",
+        "Engineered Data Handler microservice on AWS (S3, API Gateway), reducing manual backend processing by 40%.",
         "Built modular Angular and React front-end components that improved user satisfaction scores by 15%.",
         "Designed robust API logic with Dapper ORM and unit tests, reducing production defects by 30%.",
         "Integrated SQS and SwaggerHub, cutting deployment cycle time by 25% through streamlined CI/CD.",
@@ -59,6 +59,13 @@ export const portfolio = {
   ],
 
   projects: [
+    {
+      title: "CarSearch",
+      subtitle: "Vehicle Marketplace Platform",
+      description: "Full-stack vehicle search platform with Java 21 + Spring Boot backend and React TypeScript frontend. Features multi-filter search via JPA Specification pattern, Redis caching, hash-based A/B experiment framework, async SQS event publishing, and full observability via Prometheus and Spring Actuator.",
+      tags: ["Java 21", "Spring Boot", "React TypeScript", "PostgreSQL", "Redis", "Docker", "AWS SQS"],
+      highlight: "Full-stack Java + React",
+    },
     {
       title: "Workation",
       subtitle: "Travel Package Price Prediction Platform",
